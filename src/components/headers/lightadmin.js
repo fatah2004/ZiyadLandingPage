@@ -65,7 +65,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
     <NavLinks key={1}>
       <PrimaryLink
         css={roundedHeaderButton && tw`rounded-full`}
-        href="/components/landingPages/RestaurantLandingPage#"
+        href="/"
       >
         Landing Page
       </PrimaryLink>
