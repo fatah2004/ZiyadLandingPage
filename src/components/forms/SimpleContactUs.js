@@ -82,50 +82,50 @@ const UserForm = () => {
       <Content>
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
-            <h2>Organize an Event</h2>
+            <h2>Commander maintenant</h2>
             <form onSubmit={handleSubmit}>
               <TwoColumn>
                 <Column>
                   <InputContainer>
-                    <Label htmlFor="name-input">Your Name</Label>
+                    <Label htmlFor="name-input">Votre Nom</Label>
                     <Input
                       id="name-input"
                       type="text"
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="E.g. John Doe"
+                      placeholder="Ex. Jean Dupont"
                       required
                     />
                   </InputContainer>
                   <InputContainer>
-                    <Label htmlFor="email-input">Your Email Address</Label>
+                    <Label htmlFor="email-input">Votre Adresse Email</Label>
                     <Input
                       id="email-input"
                       type="email"
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="E.g. john@mail.com"
+                      placeholder="Ex. jean@mail.com"
                       required
                     />
                   </InputContainer>
                   <InputContainer>
-                    <Label htmlFor="phone-input">Phone Number</Label>
+                    <Label htmlFor="phone-input">Numéro de Téléphone</Label>
                     <Input
                       id="phone-input"
                       type="tel"
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="E.g. +1234567890"
+                      placeholder="Ex. +33123456789"
                       required
                     />
                   </InputContainer>
                 </Column>
               </TwoColumn>
 
-              <SubmitButton type="submit">Submit</SubmitButton>
+              <SubmitButton type="submit">Commander</SubmitButton>
             </form>
           </div>
           <SvgDotPattern1 />
