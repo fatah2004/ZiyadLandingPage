@@ -1,0 +1,11 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rectangle -->
+  <rect x="12" y="12" width="232" height="232" rx="13" fill="#478CCF"/>
+  
+  <!-- Text "Cistern" -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="150" fill="white">C</text>
+  
+  <!-- Silo icon or shape -->
+  <!-- For simplicity, I'll use a basic shape resembling a silo -->
+
+</svg>
